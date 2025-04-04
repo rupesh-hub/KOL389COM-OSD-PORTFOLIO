@@ -23,17 +23,17 @@ A 1500-word reflection on open-source development's relevance to my academic/car
 ## Folder Structure
 ```
 portfolio/
+├── .github/workflows
+│   └── yatzy-ci-pipeline.yml # GitHub Actions workflow for testing/docs
 ├── worksheets/
 │   ├── version_control/
 │   │   ├── README.md                 # Demonstration of Git commands used
 │   │   ├── git_commands.md           # Logs of Git commands
 │   │   └── screenshots/              # Images showing Git actions (e.g., commits, branches)
-│   ├── github_actions/
+│   ├── project/
 │   │   ├── Yatzy.py                  # Python class `Yatzy` with all required methods
 │   │   ├── test_yatzy.py             # Unit tests for all methods
 │   │   ├── game_mockup.py            # Mock Yatzy game demonstration
-│   │   ├── .github/workflows/
-│   │   │   └── yatzy-ci-pipeline.yml # GitHub Actions workflow for testing/docs
 │   │   └── README.md                 # Explanation of the implementation
 │   └── github_issues/
 │       ├── issue_report.md           # Documentation of issues raised and fixed
@@ -50,7 +50,7 @@ portfolio/
 ## How to Use
 
 ### Yatzy Class
-1. Navigate to `worksheets/github_actions/`.
+1. Navigate to `worksheets/project/`.
 2. Run `python game_mockup.py` to see a demo.
 3. Tests can be executed via `python test_yatzy.py` or GitHub Actions.
 
