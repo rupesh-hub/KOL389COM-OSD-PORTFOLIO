@@ -1,0 +1,35 @@
+Yatzy Game - Issues Report
+==========================
+
+Last Updated: April 4, 2025
+
+1. Scoring Accuracy
+-------------------
+- Some edge cases in scoring combinations (e.g. Full House with repeated numbers) need further testing.
+- Upper section bonus logic not yet verified with multiple roll scenarios.
+
+2. Input Validation
+-------------------
+- Currently minimal error handling for invalid player input (e.g. entering letters instead of numbers).
+- Need stricter validation for category selection.
+
+3. Game Flow
+------------
+- No option to restart the game once it's finished.
+- No support for multiplayer mode yet (currently assumes single player or hot-seat play).
+
+4. UI/UX (if applicable)
+------------------------
+- Terminal interface can be improved for better readability.
+- Future plan: Consider adding a graphical interface using tkinter or a web version.
+
+5. Code Structure
+-----------------
+- Some functions in the Yatzy class are too long and could be refactored for clarity.
+- Could benefit from more unit tests to ensure scoring logic works across all categories.
+
+6. Future Improvements
+----------------------
+- Add save/load game functionality.
+- Implement AI opponent.
+- Enhance scoreboard to display current rankings and total scores.
