@@ -77,10 +77,9 @@ class Yatzy:
         return 20 if sorted(self.dice) == [2, 3, 4, 5, 6] else 0
 
     def full_house(self) -> int:
-        """BUGGY: Incorrectly allows 3+1+1 as full house."""
-        counts = sorted(self._counts().values())
-        return sum(self.dice) if counts == [1, 1, 3] else 0
-
+        """Sum of all dice if full house (3+2), else 0."""
+        counts = list(self._counts().values())
+        return sum(self.dice) if (3 in counts and 2 in counts) else 0
 
     def chance(self) -> int:
         """Sum of all dice."""
