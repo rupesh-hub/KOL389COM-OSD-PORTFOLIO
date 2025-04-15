@@ -15,10 +15,6 @@ One value must appear three times, another two times.
 
 💡 Used Counter to get dice frequencies and applied a strict 3 in counts and 2 in counts and len(counts) == 2 condition.
 
-🧪 Retested with various valid and invalid full house cases to ensure correctness.
-
-💬 Added a comment to make the correct logic clearer for future readers.
-
 
 Yatzy Game - Issues Report
 ==========================
